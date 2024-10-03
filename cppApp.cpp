@@ -5,8 +5,19 @@
 
 int main()
 {
+    using namespace std;
     Game game;
     game.start();
+    cout << "test\n" << "yjyoo";
+    
+    int first;
+    int second;
+    cout << "첫 번째 값 :";
+    cin >> first;
+    cout << "두 번째 값 : ";
+    cin >> second;
+
+    cout << "곱셈 결과 입니다. ::" << first * second;
     return 0;
 }
 

@@ -2,22 +2,41 @@
 //
 #include "Game.h"
 #include <iostream>
-
+#include <string>
+#include <cstring>
+using namespace std;
 int main()
 {
-    using namespace std;
+  
     Game game;
     game.start();
-    cout << "test\n" << "yjyoo";
+    cout << "test\n" << "yjyoo \n";
     
     int first;
     int second;
-    cout << "첫 번째 값 :";
+    cout << "곱셈의 첫 번째 값 :";
     cin >> first;
     cout << "두 번째 값 : ";
     cin >> second;
 
-    cout << "곱셈 결과 입니다. ::" << first * second;
+    cout << "곱셈 결과 입니다. ::" << first * second << "\n";
+
+    string test;
+    string value("good");
+    cout << "C++ 공부하는 기분이 어떠세요?";
+    
+    while (test.length() ==0) {
+
+        getline(cin, test);
+
+        if (test.length()>0 && test == value) {
+            cout << "나도 좋아.";
+            break;
+        }
+        else {
+            cout << "괜찮아 이제 시작이야.";
+        }
+    }
     return 0;
 }
 

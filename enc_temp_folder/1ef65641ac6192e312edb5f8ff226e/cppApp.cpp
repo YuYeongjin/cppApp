@@ -27,8 +27,8 @@ int main()
     cout << "곱셈 결과 입니다. ::" << (*first) * (*second) << "\n";
 
 
-    cout << "int List 주소값 :" << *intList <<"\n";
-    cout << " vector<int> 시작값의 주소값 : " << *list.begin() << "\n";
+    cout << "int List 주소값 :" << *intList;
+    cout << " vector<int> 시작값의 주소값 : " << *list.begin();
 
     string test;
     string value("good");

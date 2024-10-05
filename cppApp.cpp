@@ -9,6 +9,7 @@ using namespace std;
 int main()
 {
   
+    /*
     Game game;
     game.start();
     cout << "test\n" << "yjyoo \n";
@@ -48,6 +49,7 @@ int main()
             }
         }       
     }
+    */
     return 0;
 }
 
